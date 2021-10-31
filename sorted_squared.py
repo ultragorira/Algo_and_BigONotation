@@ -1,4 +1,4 @@
-# O (nLogn) => because of .sort time O(n) Space 
+# O (nLogn) => because of .sort time O(n) Space. With append to avoid in this case
 def sortedSquaredArray(array):
 	squared_array = []
 	for item in array:
