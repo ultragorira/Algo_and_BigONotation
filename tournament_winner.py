@@ -21,7 +21,7 @@ def tournamentWinner(competitions, results):
 	return max(final_results,key=final_results.count)
 
 
-#O(N) Time, O(k) Space => For the Map
+#O(n) Time, O(k) Space => For the Map
 
 HOME_TEAM_WON = 1
 
