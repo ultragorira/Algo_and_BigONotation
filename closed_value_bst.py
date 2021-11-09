@@ -33,7 +33,6 @@ def find_closest_value_bst_iterate(tree, target, closest_value):
 
     return closest_value
 
-# This is the class of the input tree. Do not edit.
 class BST:
     def __init__(self, value):
         self.value = value
