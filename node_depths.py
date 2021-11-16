@@ -6,7 +6,7 @@ def nodeDepths(root, depth=0):
 		return 0
 	return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1)
 
-#Iteratively
+#Iteratively, O(n) time and O(h) space (height of the tree)
 
 def nodeDepths(root):
     sum_depths = 0
