@@ -1,5 +1,5 @@
 #O(n) time and O(h) space (height of the tree)
-#Recuservely
+#Recuservely.
 
 def nodeDepths(root, depth=0):
 	if root is None:
