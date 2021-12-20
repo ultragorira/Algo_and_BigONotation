@@ -1,6 +1,5 @@
 #O(n^2) Time in Average, O(n) best,  Time O(1) space
 def insertionSort(array):
-    # Write your code here.
 	for i in range(1, len(array)):
 		j = i
 		while j > 0 and array[j] < array[j -1]:
